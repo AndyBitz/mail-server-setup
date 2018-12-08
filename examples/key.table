@@ -1,0 +1,9 @@
+# Don't include this comment in your final file. 
+# /etc/opendkim/key.table
+#
+# Tells OpenDKIM where the private keys are.
+# The first column is the name of the key,
+# which is also used in `signing.table`.
+#
+
+example.com example.com:201812:/etc/opendkim/keys/example.com.private

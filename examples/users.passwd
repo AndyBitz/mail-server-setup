@@ -1,0 +1,13 @@
+# Don't include this comment in your final file. 
+# /etc/postfix/users.passwd
+#
+# This file is a list of all users that can use the system.
+# Username and password is enough, since `default_fields`
+# specifies the rest.
+#
+# Note that there can occure an error
+# if the colons at the end are missing.
+#
+
+user@example.com:{CRYPT}oT0ZjAaZHC4GE::::::
+info@example.com:{CRYPT}M0rck/Ua8tSLM::::::

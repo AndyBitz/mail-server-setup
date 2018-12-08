@@ -1,0 +1,10 @@
+# Don't include this comment in your final file. 
+# /etc/opendkim/trusted
+#
+# Specifies which domains will be signed.
+#
+
+127.0.0.1
+::1
+localhost
+example.com

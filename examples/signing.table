@@ -1,0 +1,7 @@
+# Don't include this comment in your final file. 
+# /etc/opendkim/signing.table
+#
+# Tells OpenDKIM which domains use which key.
+#
+
+*@example.com example.com

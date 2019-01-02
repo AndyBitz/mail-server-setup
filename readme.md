@@ -14,6 +14,8 @@ how to configure it.
 * Add the MX and TXT spf record
 * Open the file `/etc/postfix/main.cf`
 * Add the domain to `virtual_mailbox_domains`
+* Add the account to `/etc/postfix/vmailbox`
+* Reload the database with `postmap /etc/postfix/vmailbox`
 * Add a new user to `/etc/postfix/users.passwd`
 * Add the domain to the DKIM trusted list `/etc/opendkim/trusted`
 * Add the domain to the Signing table `/etc/opendkim/signing.table`

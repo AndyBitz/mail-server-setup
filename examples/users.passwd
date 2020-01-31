@@ -8,7 +8,7 @@
 # Note that there can occure an error
 # if the colons at the end are missing.
 # 
-# Use the command `doveadm pw -s CRYPT`
+# Use the command `doveadm pw -s SHA512-CRYPT`
 # to create a new password.
 #
 

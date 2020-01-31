@@ -31,6 +31,13 @@ how to configure it.
 #### Add DMARC
 Add this DNS record: `_dmarc TXT v=DMARC1; p=quarantine; sp=quarantine;`
 
+#### Add new users
+> Only applicable to some configurations
+* Create a hashed password with this command: `doveadm pw -s SHA512-CRYPT`.
+* Add the new user and the hashed password to `/etc/postfix/users.passwd`.
+* Make sure the new mailbox exists in either `/etc/postfix/virtual` for forwarding or `/etc/postfix/vmailbox` for vmailboxes.
+* Run `postmap /etc/postfix/virtual` or `postmap /etc/postfix/vmailbox` depending on which file you changed.
+* The new mailbox should just work without restarting the postfix or dovecot.
 
 ###### Resources
 

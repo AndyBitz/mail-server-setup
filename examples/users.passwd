@@ -7,6 +7,9 @@
 #
 # Note that there can occure an error
 # if the colons at the end are missing.
+# 
+# Use the command `doveadm pw -s CRYPT`
+# to create a new password.
 #
 
 user@example.com:{CRYPT}oT0ZjAaZHC4GE::::::
